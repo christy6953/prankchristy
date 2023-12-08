@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#game-container {
+    width: 400px;
+    height: 400px;
+    background-color: #eee;
+    position: relative;
+}
+
+#snake {
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    position: absolute;
+}
