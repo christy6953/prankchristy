@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Santa Hunt</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-image: url('https://static.vecteezy.com/system/resources/thumbnails/003/217/796/small/cyber-hacker-attack-background-skull-vector.jpg'); /* Replace with your provided URL */
+            background-size: cover;
+            background-position: center;
+            color: #ffffff; /* Set text color to white */
+        }
+    </style>
+</head>
+<body>
+    <h1>Still not completed... Curious, isn't it?</h1>
+    <p>Answer my question to know me</p>
+    <!-- ChatGPT can provide a question here -->
+    <p>Example Question: What is the size of a character in C programming?</p>
+    <input type="text" id="answer" placeholder="Your answer">
+    <button onclick="checkAnswer()">Submit Answer</button>
+
+    <script>
+        function checkAnswer() {
+            var answer = document.getElementById("answer").value.toLowerCase();
+            // Example answer: "1 byte"
+            if (answer === "1 byte") {
+                window.location.href = "page4.html";
+            } else {
+                alert("Incorrect answer. Try again!");
+            }
+        }
+    </script>
+</body>
+</html>
