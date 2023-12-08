@@ -3,39 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Secret Santa Hunt</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            text-align: center;
-            padding: 50px;
-            background-image: url('https://i.pinimg.com/736x/b7/fd/e1/b7fde11056a9848b032181d394ee2c1a.jpg'); /* Replace with your provided URL */
-            background-size: cover;
-            background-position: center;
-            color: #ffffff; /* Set text color to white */
-        }
-    </style>
+    <title>Super Mario Adventure</title>
+    <link rel="stylesheet" href="mario-styles.css">
 </head>
 <body>
-    <h1>Do you think I would reveal that easily? 😁</h1>
-    <p>To know me, catch my love emoji 3 times at least...</p>
-    <script>
-        // JavaScript for the love emoji puzzle
-        var loveEmoji = document.createElement("div");
-        loveEmoji.innerHTML = "❤️";
-        loveEmoji.style.position = "absolute";
-        loveEmoji.style.fontSize = "36px";
-        loveEmoji.style.cursor = "pointer";
-        document.body.appendChild(loveEmoji);
-
-        var attempts = 0;
-
-        loveEmoji.addEventListener("mouseover", function () {
-            attempts++;
-            if (attempts === 3) {
-                window.location.href = "page3.html";
-            }
-        });
-    </script>
+    <div id="game-container">
+        <div id="mario"></div>
+    </div>
+    <script src="mario-game.js"></script>
 </body>
 </html>
